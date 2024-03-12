@@ -1,8 +1,8 @@
 {
-  "homepage": "http://omark807.github.io/my-app",
-  "name": "portfolio",
+  "homepage": "http://yahoo.com",
+  "name": "personal-web",
   "version": "1.0.0",
-  "description": "Omar Khan Personal Site",
+  "description": "Ismail M Portfolio Website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "predeploy": "npm run build",

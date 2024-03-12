@@ -17,7 +17,7 @@
   text-decoration: none;
 }
 
-.title a:hover,
+
 .title a:focus,
 .title a:active {
   text-decoration: underline;
@@ -72,8 +72,8 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: #0071f325;
+  border-color: #000000;
 }
 
 .card h2 {

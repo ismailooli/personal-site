@@ -30,7 +30,8 @@ const LinkItem = ({ href, path, _target, children, ...props }) => {
             <Link
                 p={2}
                 bg={active ? 'pinkyPink' : undefined}
-                color={active ? '#232323' : inactiveColour}
+                color={active ? inactiveColour : inactiveColour}
+                fontWeight={active ? 'bold' : 'normal'}
                 _target={_target}
                 {...props}
             >
@@ -83,20 +84,13 @@ const Navbar = props => {
                         about me
                     </LinkItem>
 
-                    <LinkItem href="/research" path={path}>
-                        research
-                    </LinkItem>
 
                     <LinkItem href="/projects" path={path}>
                         {/* </IoBookOutline> */}
                         projects
                     </LinkItem>
 
-                    <LinkItem href='https://drive.google.com/file/d/1cAUcYLSET9oTVi57cWeootpquQ7zJqYj/view?usp=sharing' target='_blank' path={path}>
-                        {/* <IoBookOutline/> */}
-                        cv
-                    </LinkItem>
-                    <LinkItem href='https://drive.google.com/file/d/1SLNPY8m6YRH22bDSagzfqtUcuEt29Mim/view?usp=sharing' target='_blank' path={path}>
+                    <LinkItem href='https://drive.google.com/file/d/1UvYjSf20MGIBIpkY3Xe8FQtcgaJpAdiJ/view?usp=sharing' target='_blank' path={path}>
                         {/* <IoBookOutline/> */}
                         resumé
                         
@@ -104,7 +98,7 @@ const Navbar = props => {
 
                     <LinkItem 
                         target="_blank"
-                        href="https://github.com/omark807" 
+                        href="https://github.com/ismailooli" 
                         path={path}
                         display="inline-flex"
                         alignItems="center"
@@ -117,7 +111,7 @@ const Navbar = props => {
                   
                     <LinkItem 
                         target="_blank"
-                        href="https://www.linkedin.com/in/omark807/" 
+                        href="https://www.linkedin.com/in/ismoha4/" 
                         path={path}
                         display="inline-flex"
                         alignItems="center"

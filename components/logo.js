@@ -30,7 +30,7 @@ const Logo = () => {
                         fontWeight="bold"
                         ml={3}
                     >
-                        Omar Khan
+                        ismail m
                     </Text>
                 </LogoBox>
             </a>

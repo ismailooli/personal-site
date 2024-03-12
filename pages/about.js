@@ -1,4 +1,4 @@
-import { Container, Heading, Link,  ListItem, UnorderedList} from '@chakra-ui/react'
+import { Container, Heading, Link,  ListItem, UnorderedList, useColorModeValue} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Paragraph from '../components/paragraph'
 import Section from '../components/section'
@@ -6,8 +6,10 @@ import Section from '../components/section'
 /**
  * Contains information about my background and some personal interests. 
  */
-const AboutMe = () => (
-    <Layout title="More about me! ">
+const AboutMe = () => {
+    const linkColor = useColorModeValue('blue.500', 'green.200');
+
+   return( <Layout title="More about me! ">
         <Container>
             {/* <Heading as="h3" fontsize={20} mb={4}>
                 About Me
@@ -16,19 +18,16 @@ const AboutMe = () => (
                     <Heading as="h3" variant="section-title">
                         who am i?
                     </Heading>
-                    <Paragraph>I graduated from the University of Illinois Urbana-Champaign (UIUC) with a Bachelor of Science in <Link href='https://cs.illinois.edu/academics/undergraduate/degree-program-options/cs-x-degree-programs/computer-science-crop-sciences' target='_blank'> Computer Science 
-                        + Crop Sciences</Link>, an interdisciplinary program that brings the strengths of the <Link href='https://cs.illinois.edu/' target='_blank'> Department of Computer Science </Link> and the
-                        <Link href='https://cropsciences.illinois.edu/' target='_blank'> Department of Crop Sciences</Link> at UIUC. My drive to pursue this intersection began with my interests in computing and 
-                        sustainability, wanting to create more environmentally conscious technological solutions to the world&apos;s most complex issues. 
+                    <Paragraph>I am currently a student at the University of Illinois Urbana-Champaign (UIUC) with a Bachelor of Science in Computer Science + Economics. My interest in computer science stems from my creativeness. Even outside of school, I've always like creating
+                        things like films with my cats or making graphic design posters for my apartment. This interest in creating things influenced me to take on a major that would give me the tools to create freely. This is why I am especially
+                        interested in designing and building my own applications 
+                     
                     </Paragraph>
 
                     <br></br>
 
-                    <Paragraph> 
-                        <Paragraph>While these interests definitely remain intact, through research experiences in each of my departments, as well as my lived experiences as an individual with a visual impairment, my interests have shifted broadly towards human-computer interaction (HCI).
-                        Specifically, I frequently question the extent to which current technological paradigms promote accessibility, whether these experiences <i>also</i> consider security/privacy, and how users feel about these experiences. I am also interested in ways that security and privacy 
-                        topics are portrayed in popular media and the impact these depictions on yougner audiences (kids and teens).
-                    </Paragraph>
+                    <Paragraph>While these interests definitely remain intact, through experiences in studying computer science, other fields like data visualization and data science have started to interest me. As with everyone else in the field, I'm also eager to see what 
+                            new AI tools are being created to empower developers to go above and beyond.
 
                     </Paragraph>
              
@@ -36,19 +35,15 @@ const AboutMe = () => (
             
             <Section>
                     <Heading as="h3" variant="section-title">
-                        non-academic interests
+                        what do i do outside of school?
                     </Heading>
                 <Paragraph>
-                    Some other things I enjoy...
                     <UnorderedList>
-                        <ListItem>Fitness</ListItem>
-                        <ListItem>Coffee</ListItem>
-                        <ListItem>Reading (current read is <Link href='https://www.goodreads.com/en/book/show/56238004-the-good-lie' target='_blank'> 
-                        <i>The Good Lie </i></Link> by A.R. Torre; recently read <Link href='https://www.goodreads.com/en/book/show/52149789-the-best-of-friends' target='_blank'> 
-                        <i>The Best of Friends </i></Link> by Lucinda Berry)</ListItem>
-                        <ListItem>Cooking</ListItem>
-                        <ListItem>Writing</ListItem>
-                        <ListItem>Anything outdoorsy!</ListItem>
+                        <ListItem>filming videos with my friends </ListItem>
+                        <ListItem>skateboarding</ListItem>
+                        <ListItem>reading manga (currently reading <Link href='https://www.viz.com/naoki-urasawa-s-20th-century-boys' target='_blank' color={linkColor}> 
+                        <i> 20th Century Boys </i> </Link> )</ListItem>
+                        <ListItem>cooking with my roomates -- check out <Link href='https://www.instagram.com/chefsdechampaign/' target='_blank' color={linkColor}>  <i> our insta </i></Link> </ListItem>        
                     </UnorderedList>
                 </Paragraph>
             </Section>
@@ -56,5 +51,5 @@ const AboutMe = () => (
     </Layout>
 
 ) 
-
+        }
 export default AboutMe
