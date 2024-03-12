@@ -2,7 +2,7 @@ import {
     Container,
     Heading,
     //Image,
-    Link,
+    //Link,
     Box
 } from '@chakra-ui/react'
 import Section from '../components/section'
@@ -42,7 +42,7 @@ const Page = () => {
                     </Heading>
                     <BioSection>
                         <BioYear> LinkedIn AutoConnect</BioYear>
-                        i've spent way too much time sitting on linkedin trying to find people to connect with at a company so i decided to create something that automates that 
+                        i&apos;ve spent way too much time sitting on linkedin trying to find people to connect with at a company so i decided to create something that automates that 
                         process for me 
                     </BioSection>
                   

@@ -18,7 +18,7 @@ const AboutMe = () => {
                     <Heading as="h3" variant="section-title">
                         who am i?
                     </Heading>
-                    <Paragraph>I am currently a student at the University of Illinois Urbana-Champaign (UIUC) with a Bachelor of Science in Computer Science + Economics. My interest in computer science stems from my creativeness. Even outside of school, I've always like creating
+                    <Paragraph>I am currently a student at the University of Illinois Urbana-Champaign (UIUC) with a Bachelor of Science in Computer Science + Economics. My interest in computer science stems from my creativeness. Even outside of school, I&apos;ve always like creating
                         things like films with my cats or making graphic design posters for my apartment. This interest in creating things influenced me to take on a major that would give me the tools to create freely. This is why I am especially
                         interested in designing and building my own applications 
                      
@@ -26,7 +26,7 @@ const AboutMe = () => {
 
                     <br></br>
 
-                    <Paragraph>While these interests definitely remain intact, through experiences in studying computer science, other fields like data visualization and data science have started to interest me. As with everyone else in the field, I'm also eager to see what 
+                    <Paragraph>While these interests definitely remain intact, through experiences in studying computer science, other fields like data visualization and data science have started to interest me. As with everyone else in the field, I&apos;m also eager to see what 
                             new AI tools are being created to empower developers to go above and beyond.
 
                     </Paragraph>

@@ -13,7 +13,7 @@ const Main = ({ children, router }) => {
                 <meta property="og:site_name" content="Ismail's homepage" />
                 <meta property="og:type" content="website" />
                 <link rel="icon" href="../public/images/works/logo.png" type = "image/x-icon"/>
-                <title>ismail's place</title>
+                <title>ismail&apos;s place</title>
             </Head>
 
             <Navbar path={router.asPath}/>
