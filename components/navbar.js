@@ -138,22 +138,16 @@ const Navbar = props => {
                 <NextLink href="/about" passHref>
                   <MenuItem as={Link}>about me</MenuItem>
                 </NextLink>
-                <NextLink href="/research" passHref>
-                  <MenuItem as={Link}>research</MenuItem>
-                </NextLink>
                 <NextLink href="/projects" passHref>
                   <MenuItem as={Link}>projects</MenuItem>
                 </NextLink>
-                <NextLink href="https://drive.google.com/file/d/1cAUcYLSET9oTVi57cWeootpquQ7zJqYj/view?usp=sharing" target="_blank" path={path} passHref>
-                  <MenuItem as={Link}>cv</MenuItem>
-                </NextLink>
-                <NextLink href="https://drive.google.com/file/d/1SLNPY8m6YRH22bDSagzfqtUcuEt29Mim/view?usp=sharing" target="_blank" path={path} passHref>
+                <NextLink href="https://drive.google.com/file/d/1UvYjSf20MGIBIpkY3Xe8FQtcgaJpAdiJ/view?usp=sharing" target="_blank" path={path} passHref>
                   <MenuItem as={Link}>resumé</MenuItem>
                 </NextLink>
-                <MenuItem as={Link} href="https://github.com/omark807" target="_blank">
+                <MenuItem as={Link} href="https://github.com/ismailooli" target="_blank">
                   github
                 </MenuItem>
-                <MenuItem as={Link} href="https://www.linkedin.com/in/omark807" target="_blank">
+                <MenuItem as={Link} href="https://www.linkedin.com/in/ismoha4/" target="_blank">
                   linkedIn
                 </MenuItem>
               </MenuList>
