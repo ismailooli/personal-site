@@ -1,7 +1,10 @@
 import { Container, Heading, SimpleGrid, Divider} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
+import { WorkGridItem } from '../components/grid-item'
 
+import kayakImg from '../public/images/works/kayak.png'
+import courseraImg from '../public/images/works/coursera.png'
 
 /**
  * Page where users can find information about personal projects I have done. 
