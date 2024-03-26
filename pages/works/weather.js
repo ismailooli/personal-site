@@ -8,7 +8,7 @@ const Project = () => (
     <Layout>
         <Container>
             <Title>
-                Weather <Badge>2023</Badge>
+                Weather Chrome Extension <Badge>2023</Badge>
             </Title>
             <WorkImage
                 src="/images/works/weather.png"
