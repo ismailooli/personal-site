@@ -8,34 +8,28 @@ const Project = () => (
     <Layout>
         <Container>
             <Title>
-                Coursera <Badge>2022</Badge>
+                Weather <Badge>2023</Badge>
             </Title>
             <WorkImage
-                src="/images/works/coursera.png"
-                alt="Coursera Logo"
+                src="/images/works/weather.png"
+                alt="Weather App Logo"
             />
             <P>
-                This mini-project invovled making use of heuristic evaluation, a technique where the user interface 
-                is evaluated against a list of high-priority usability principles, The list of principles that I used for this 
-                project were created by the <Link href="https://www.nngroup.com/">Nielsen Norman Group</Link>, and can be found <Link href="https://www.nngroup.com/articles/ten-usability-heuristics/">here</Link>. 
-            </P>
-
+I often don’t know what to wear depending on the weather is so I created a extension that would give me recommendations with 
 
             <br>
             </br>
 
+                    <P>
+The entire project was created using HTML and Javascript with a bunch of CSS for styling. The application is set to a default location of Champaign but once you press the search bar, it will prompt you to enter your own location. It would fetch the weather data using the OpenWeather API and display it on the left side. Using the temperature data from OpenWeather, it would figure out what types of clothes are most suitable for the weather. It would display the recommendation as well as an image embed that leads to an Amazon link for the recommended product.                    </P>
             <List>
                 <ListItem>
-                    <Meta>Link</Meta>
-                    <Link target="_blank" href="https://docs.google.com/document/d/1IkyyjPdFBilIQL4dvq7tIBhv6H22HnstM8nFNfcc-pA/edit?usp=sharing">
-                        Document
+                    <Meta>Repo Link</Meta>
+                    <Link target="_blank" href="https://github.com/ismailooli/-scarf">
+                        Github
                     </Link> <ExternalLinkIcon></ExternalLinkIcon>
                 </ListItem>
-  
-                <ListItem>
-                    <Meta>Methods</Meta>
-                    Heuristic Evaluation, Usability Testing
-                </ListItem>
+   
             </List>
             <br/>
         </Container>
