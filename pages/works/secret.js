@@ -28,7 +28,7 @@ My close friend has trouble navigating social cues when we are in large groups o
                 <ListItem>
                     <Meta>Repo Link</Meta>
                     <Link target="_blank" href="https://github.com/ismailooli/secret-sharer">
-                        Document
+                        Github
                     </Link> <ExternalLinkIcon></ExternalLinkIcon>
                 </ListItem>
    
