@@ -16,7 +16,7 @@ const Project = () => (
             />
             <P>
 I often don’t know what to wear depending on the weather is so I created a extension that would give me recommendations with 
-
+                    </P>
             <br>
             </br>
 
