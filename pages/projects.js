@@ -26,12 +26,12 @@ const Works = () => (
 
             <SimpleGrid columns={[1, 1, 3]} gap={6}>
                 <Section delay={0.3}>
-                   <WorkGridItem id="secrets" title="Secret Sharer" thumbnail={secretImg}>
+                   <WorkGridItem id="secret" title="Secret Sharer" thumbnail={secretImg}>
                         This project was created as a way to help my friend stop spilling secrets to people outside of our apartment. 
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.3}>
-                    <WorkGridItem id="weatherapp" title="Weather Extension" thumbnail={weatherImg}>
+                    <WorkGridItem id="weather" title="Weather Extension" thumbnail={weatherImg}>
                         Creating an extension that displayed the weather and reccomends clothes I should wear depending on the wear 
                     </WorkGridItem> 
                 </Section>
